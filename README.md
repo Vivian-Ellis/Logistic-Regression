@@ -1,1 +1,2 @@
-# Logistical-Regression
+# Logistic-Regression
+The purpose of logistic regression is to determine whether differences in the perceptions of HBAT exists between customer region. The customer region is determined by whether a customer resides in North America and outside of North America. I will use stepwise logistic regression to control for multicollinearity. The three variables that have a variance inflation factor > 10 are Prod_line, Price_flex, and Del_speed with a VIF of 37.97842, 33.33234, and 44.00376 respectively.  The preliminary analysis will provide an insight as to which metric independent variables might help in predicting the dependent variable, region. 
